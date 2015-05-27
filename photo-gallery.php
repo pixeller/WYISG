@@ -42,7 +42,7 @@
                         </a>
                     </div>    
                     <div class="desc">
-                        <h4><a href="gallery-event-launching.php">Event Launching</a></h4>
+                        <h4><a href="gallery-event-launching.php">Our Launch</a></h4>
                         <p>22nd May 2015</p>
                     </div>
                 </div>    

@@ -7,14 +7,15 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Event Launching
-                </h1>
+                
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
                     </li>
                     <li><a href="photo-gallery.php">Photo Gallery</a></li>
-                    <li class="active">Event Launching</li>
+                    <li class="active">Our Launch</li>
                 </ol>
+                <h1 class="page-header">Our Launch
+                </h1>
             </div>
         </div>
         <!-- /.row -->
