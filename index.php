@@ -64,7 +64,7 @@
                         Highlights
                     </h1>
                     <span class="view-more">
-                        <a class="btn btn-link" href="event-launching.php">
+                        <a class="btn btn-link" href="gallery-event-launching.php">
                         View more <i class="fa fa-angle-double-right"></i>
                         </a>
                     </span>
@@ -81,7 +81,7 @@
                             </div>
                             <div class="thumbnail item">
                                 <a href="images/gallery/event-launching/large/02.JPG">
-                                    <img src="images/gallery/event-launching/thumb/02.JPG" class="img-responsive">
+                                    <img src="images/gallery/event-launching/thumb/10.JPG" class="img-responsive">
                                     <span class="thumb-text">Event Launching</span>
                                 </a>
                             </div>
