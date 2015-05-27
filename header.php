@@ -165,8 +165,23 @@
                       <a href="#">Mascots</a>
                     </li> -->
                     <li <?php if($current == 'sports_venues') {echo 'class="active"';} ?> class="dropdown">
-                      <a href="sports-venues.php">Sport Venues</a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sport Venues</a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="sports-venues-archery.php">Archery</a></li>
+                        <li><a href="sports-venues-athletics.php">Athletics</a></li>
+                        <li><a href="sports-venues-aquatics.php">Aquatics</a></li>
+                        <li><a href="sports-venues-badminton.php">Badminton</a></li>
+                        <li><a href="sports-venues-equestrian.php">Equestrian</a></li>
+                        <li><a href="sports-venues-football.php">Football</a></li>
+                        <li><a href="sports-venues-hockey.php">Hockey</a></li>
+                        <li><a href="sports-venues-taekwondo.php">Taekwondo</a></li>
+                        <li><a href="sports-venues-tenpin-bowling.php">Tenpin Bowling</a></li>
+                        <li><a href="sports-venues-volley-ball.php">Volleyball</a></li>
+                        <li><a href="sports-venues-venue.php">Venue</a></li>
+                      </ul>
                     </li>
+
+
                     <li <?php if($current == 'travel_transports') {echo 'class="active"';} ?> class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel & Transports</a>
                       <ul class="dropdown-menu" role="menu">
@@ -178,7 +193,7 @@
                       <ul class="dropdown-menu" role="menu">
                       	<hr style="border-top:4px solid #57aa47; margin:5px 15px">
                         <!-- <li><a href="#">Our Sponsors</a></li> -->
-                        <li><a href="event-launching.php">Gallery</a></li>
+                        <li><a href="photo-gallery.php">Gallery</a></li>
                         <!-- <li><a href="#">News</a></li>
                         <li><a href="#">Videos</a></li> -->
                         <li><a href="contact.php">Contact Us</a></li>
