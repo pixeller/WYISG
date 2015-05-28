@@ -17,14 +17,14 @@
             <div class="item active">
                 <div class="fill" style="background-image:url(images/banner3.jpg);"></div>
                 <div class="carousel-caption">
-                    <h2>World Youth Islamic Solidarity Games</h2>
+                    <img src="images/wyisg-logo.png">
                     <span>15 October - 23 October 2016</span>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url(images/banner1.jpg);"></div>
                 <div class="carousel-caption">
-                    <h2>World Youth Islamic Solidarity Games</h2>
+                    <img src="images/wyisg-logo.png">
                     <span>15 October - 23 October 2016</span>
                 </div>
             </div>

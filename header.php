@@ -76,7 +76,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"></a>
+          
+          
+          <!-- <a class="navbar-brand" href="#"></a> -->
+          <div style="background: #fff; width: 450px;">
+            <img src="images/issf-logo.png" style="margin:0; padding:0;">
+            <img src="images/wyisg-logo-w.png" style="margin:0; padding:0; margin-left:10px;">
+            <img src="images/melaka-logo.png" style="margin:0; padding:0; margin-left:10px;">
+          </div>
         </div>
     
         <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">

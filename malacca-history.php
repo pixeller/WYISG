@@ -91,7 +91,7 @@
 
                 <div class="row">
                     <div class="col-sm-6">
-                        <img class="img-responsive" src="images/malacca-history/malacca-city-of-historical.jpg" alt="">
+                        <img class="img-responsive" src="images/gallery/event-launching/large/34.jpg" alt="">
                     </div>
                 </div>
 
