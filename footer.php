@@ -4,20 +4,24 @@
  *
  */
 ?>
-<footer>
+<footer class="container">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 hidden-xs">
-                	<h4>Official Partners</h4>
-                    <ul class="list-inline">
-                    	<li><img src="images/archery.png"/></li>
-                        <li>Coming soon</li>
-                    </ul>
-                    <h4>Official Supporters</h4>
-                    <ul class="list-inline">
-                    	<li><img src="images/athletics.png"/></li>
-                        <li>Coming soon</li>
-                    </ul>
+                    <div class="col-sm-6 hidden-xs">
+                    	<h4>Official Partners</h4>
+                        <ul class="list-inline">
+                        	<li><img src="images/archery.png"/></li>
+                            <li>Coming soon</li>
+                        </ul>
+                    </div>    
+                    <div class="col-sm-6 hidden-xs">    
+                        <h4>Corporate Supporters</h4>
+                        <ul class="list-inline">
+                        	<li><img src="images/athletics.png"/></li>
+                            <li>Coming soon</li>
+                        </ul>
+                    </div>    
                 </div>
                 <div class="col-sm-4 social-link">
                 	<h4>Follow Us</h4>
@@ -101,6 +105,9 @@
           gallery:{
             enabled:true
           }
+        });
+        $(document).ready(function() {
+          $('.image-link').magnificPopup({type:'image'});
         });
     </script>
     

@@ -37,7 +37,9 @@
 
                 
 				<center>
-                	<img src="images/organization-chart.jpg" class="img-responsive"/>
+                    <a class="image-link" href="images/organization-chart.png">
+                	   <img src="images/organization-chart.png" class="img-responsive"/>
+                    </a>
                 </center>
                 
                 <p><br></p>

@@ -8,7 +8,7 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+            <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -17,30 +17,30 @@
             <div class="item active">
                 <div class="fill" style="background-image:url(images/banner3.jpg);"></div>
                 <div class="carousel-caption">
-                    <img src="images/wyisg-logo.png">
-                    <span>15 October - 23 October 2016</span>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url(images/banner1.jpg);"></div>
-                <div class="carousel-caption">
-                    <img src="images/wyisg-logo.png">
-                    <span>15 October - 23 October 2016</span>
+                    <h3>OUR HOST, MALACCA</h3>
                 </div>
             </div>
             <!-- <div class="item">
-                <div class="fill" style="background-image:url(images/banner2.jpg);"></div>
+                <div class="fill" style="background-image:url(images/banner1.jpg);"></div>
                 <div class="carousel-caption">
-                    <h2>World Youth Islamic Solidary Game</h2>
+                    <img src="images/wyisg-logo.png">
                     <span>15 October - 23 October 2016</span>
                 </div>
             </div> -->
-            <!--<div class="item">
-                <div class="fill" style="background-image:url(images/banner1.jpg);"></div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url(images/banner4.jpg);"></div>
                 <div class="carousel-caption">
-                    <h2 class="hidden">World Youth Islamic Solidary Game</h2>
+                    <h3>OUR OFFICIAL LAUNCH</h3>
                 </div>
-            </div>-->
+            </div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url(images/banner5.jpg);"></div>
+                <div class="carousel-caption">
+                    <h3>OUR VENUES</h3>
+                </div>
+            </div>
             
         </div>
 
@@ -214,7 +214,7 @@
             </div>
             
             <div class="clearfix"></div>
-            
+            <hr>
             <div class="newsletter text-center">
             	<h2>Enter your email and <span>subscribe</span> to our newsletter.</h2>
                 <p>Get exclusive update and promote about WYISG event</p>
@@ -231,6 +231,7 @@
                 </form>
                 <div class="clearfix"></div>
             </div>
+            <hr>
             
         </div>
         <!-- /.row -->

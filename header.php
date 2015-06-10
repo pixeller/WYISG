@@ -79,7 +79,7 @@
           
           
           <!-- <a class="navbar-brand" href="#"></a> -->
-          <div style="background: #fff; width: 450px;">
+          <div style="background: #fff; width: 450px; height: 110px;">
             <img src="images/issf-logo.png" style="margin:0; padding:0;">
             <img src="images/wyisg-logo-w.png" style="margin:0; padding:0; margin-left:10px;">
             <img src="images/melaka-logo.png" style="margin:0; padding:0; margin-left:10px;">
@@ -102,7 +102,7 @@
                 </ul>
             </div>
             <div class="clearfix"></div>
-            <div class="row navbar-fluid">
+            <div class="container navbar-fluid">
             	<div class="container">
                     <ul class="nav navbar-nav navbar-right">
                     <!-- Get Menu Name here -->    
@@ -118,7 +118,7 @@
                           </ul>                    
                     </li> -->
                     <li <?php if($current == 'sports') {echo 'class="active dropdown mega-dropdown"';} ?> class="dropdown mega-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sports</a>				
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Sports</a>				
                         <div class="dropdown-menu mega-dropdown-menu">
                             <div class="container-fluid">
                                 <!-- Tab panes -->
@@ -151,11 +151,11 @@
                         </div>				
                     </li>
                     <li <?php if($current == 'hosts') {echo 'class="active"';} ?> class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Host</a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Host</a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="malacca-history.php">Story Of Malacca As UNESCO World Heritage City</a></li>
                         <li><a href="sports-tourism.php">Sports Tourism</a></li>
-                        <li><a href="heritage-trails.php">15th Century Events</a></li>
+                        <li><a href="heritage-trails.php">The Heritage Trails</a></li>
                         <!-- <li><a href="#">Push Card Merchandise</a></li>
                         <li><a href="#">Road Shows</a></li> -->
                       </ul>
@@ -172,7 +172,7 @@
                       <a href="#">Mascots</a>
                     </li> -->
                     <li <?php if($current == 'sports_venues') {echo 'class="active"';} ?> class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sport Venues</a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Venues</a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="sports-venues-archery.php">Archery</a></li>
                         <li><a href="sports-venues-athletics.php">Athletics</a></li>
@@ -198,7 +198,7 @@
                     <li <?php if($current == 'more') {echo 'class="active"';} ?> class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu">
-                      	<hr style="border-top:4px solid #57aa47; margin:5px 15px">
+                      	<hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
                         <!-- <li><a href="#">Our Sponsors</a></li> -->
                         <li><a href="photo-gallery.php">Gallery</a></li>
                         <!-- <li><a href="#">News</a></li>
