@@ -104,33 +104,76 @@
                 <div class="well sidebar">
                     <h4>Other Sports</h4>
                     <div class="row">
-                        <div class="col-lg-5">
-                            <ul class="list-unstyled fa-ul">
-                                <li><a href="sports-archery.php"><i class="fa-li fa fa-angle-right"></i> Archery</a>
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled thumblist">
+                                <li>
+                                    <a href="sports-archery.php">
+                                        <img src="images/sports/archery.png" class="img-responsive">
+                                        <p>Archery</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-athletics.php"><i class="fa-li fa fa-angle-right"></i> Athletics</a>
+                                <li><a href="sports-athletics.php">
+                                        <img src="images/sports/athletic.png" class="img-responsive">
+                                        <p>Athletics</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-badminton.php"><i class="fa-li fa fa-angle-right"></i> Badminton</a>
+                                <li><a href="sports-badminton.php">
+                                        <img src="images/sports/badminton.png" class="img-responsive">
+                                        <p>Badminton</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-equestrain.php"><i class="fa-li fa fa-angle-right"></i> Equestrian</a>
+                                <li><a href="sports-equestrain.php">
+                                        <img src="images/sports/equestrain.png" class="img-responsive">
+                                        <p>Equestrian</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-football.php"><i class="fa-li fa fa-angle-right"></i> Football</a>
+                                <li><a href="sports-football.php">
+                                        <img src="images/sports/football.png" class="img-responsive">
+                                        <p>Football</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-hockey.php"><i class="fa-li fa fa-angle-right"></i> Hockey</a>
+
+                                <li><a href="sports-hockey.php">
+                                        <img src="images/sports/hockey.png" class="img-responsive">
+                                        <p>Hockey</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-7">
-                            <ul class="list-unstyled fa-ul">
-                                <li><a href="sports-sepak-takraw.php"><i class="fa-li fa fa-angle-right"></i> Sepak Takraw</a>
+                                <li><a href="sports-sepak-takraw.php">
+                                        <img src="images/sports/sepaktakraw.png" class="img-responsive">
+                                        <p>Sepak Takraw</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-swimming.php"><i class="fa-li fa fa-angle-right"></i> Swimming</a>
+                                <li><a href="sports-swimming.php">
+                                        <img src="images/sports/swimming.png" class="img-responsive">
+                                        <p>Swimming</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-taekwondo.php"><i class="fa-li fa fa-angle-right"></i> Taekwondo</a>
+                                <li><a href="sports-taekwondo.php">
+                                        <img src="images/sports/taekwondo.png" class="img-responsive">
+                                        <p>Taekwondo</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-tenpin-bowling.php"><i class="fa-li fa fa-angle-right"></i> 10 pin Bowling</a>
+                                <li><a href="sports-tenpin-bowling.php">
+                                        <img src="images/sports/tenpinbowling.png" class="img-responsive">
+                                        <p>10 Pin Bowling</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="sports-volleyball.php"><i class="fa-li fa fa-angle-right"></i> Volleyball</a>
+                                <li><a class="active" href="sports-volleyball.php">
+                                        <img src="images/sports/volleyball.png" class="img-responsive">
+                                        <p>Volleyball</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>     
                             </ul>
                         </div>
                     </div>
