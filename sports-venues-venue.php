@@ -54,36 +54,136 @@
             <div class="col-md-4">
 
                 <!-- Blog Categories Well -->
-                <!-- <div class="well">
-                    <h4>Sports Categories</h4>
+                <div class="well sidebar">
+                    <h4>Other Venues</h4>
                     <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled thumblist">
+                                <li>
+                                    <a href="sports-venues-archery.php">
+                                        <img src="images/venue-john/archery2.jpg" class="img-responsive">
+                                        <p>SM Seri Kota Melaka</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="sports-venues-athletics.php">
+                                        <img src="images/venue-john/athletics1.jpg" class="img-responsive">
+                                        <p>Stadium Hang Jebat</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="sports-venues-aquatics.php">
+                                        <img src="images/venue-john/aquatics3.jpg" class="img-responsive">
+                                        <p>Hang Jebat Aquatic Centre</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="sports-venues-badminton.php">
+                                        <img src="images/venue-john/badminton5.jpg" class="img-responsive">
+                                        <p>Ayer Keroh Sports Center</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
+                                <li><a href="sports-venues-equestrian.php">
+                                        <img src="images/venue-john/equestrain1.jpg" class="img-responsive">
+                                        <p>Hang Jebat Equestrian Centre</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="sports-venues-football.php">
+                                        <img src="images/venue-john/football1.jpg" class="img-responsive">
+                                        <p>Padang Bola Sepak Hang Jebat, Stadium Kubu (for semifinal) and Stadium Hang Jebat</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+
+                                <li><a href="sports-venues-hockey.php">
+                                        <img src="images/venue-john/hockey1.jpg" class="img-responsive">
+                                        <p>Stadium Hockey MBMB Bukit Serindit</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="sports-venues-taekwondo.php">
+                                        <img src="images/venue-john/taekwondo1.jpg" class="img-responsive">
+                                        <p>Mini Stadium Bistari Ayer Keroh</p>
+                                        <div class="clearfix"></div>
+                                    </a>
                                 </li>
+                                <li><a href="sports-venues-tenpin-bowling.php">
+                                        <img src="images/venue-john/badminton1.jpg" class="img-responsive">
+                                        <p>Melaka International Bowling Centre (MIBC)</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="sports-venues-volley-ball.php">
+                                        <img src="images/venue-john/volleyball6.jpg" class="img-responsive">
+                                        <p>SMK Yok Bin</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>  
+                                <li><a class="active" href="sports-venues-venue.php">
+                                        <img src="images/venue-john/venue3.jpg" class="img-responsive">
+                                        <p>Dewan Bola Keranjang Bukit Serindit</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>    
                             </ul>
                         </div>
                     </div>
-                    /.row
+                    <!-- /.row -->
+                </div>
+
+                <!-- <div class="well sidebar">
+                    <h4>List of Sports</h4>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled fa-ul">
+                                <li><a href="#"><i class="fa-li fa fa-angle-right"></i> Coming Soon</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
                 </div> -->
+
+                <div class="well sidebar">
+                    <h4>Hotels</h4>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled fa-ul">
+                                <li><a href="#"><i class="fa-li fa fa-angle-right"></i> Coming Soon</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <div class="well sidebar">
+                    <h4>Tour Spot</h4>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled fa-ul">
+                                <li><a href="#"><i class="fa-li fa fa-angle-right"></i> Coming Soon</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <div class="well sidebar">
+                    <h4>Transport</h4>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled fa-ul">
+                                <li><a href="#"><i class="fa-li fa fa-angle-right"></i> Coming Soon</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
 
             </div>
 

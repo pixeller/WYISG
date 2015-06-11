@@ -252,7 +252,8 @@ footer .copyright ul.list-inline li:after {
 .flag.table tr td { line-height: 27px; }
 
 .well.sidebar { border: none; box-shadow: none; }
-.sidebar .list-unstyled li { margin: 5px 0; }
+.well.sidebar { padding: 0 18px; }
+/* .sidebar .list-unstyled li { margin: 5px 0; } */
 .sidebar .list-unstyled li a { color: #4E9940;
   font-size: 16px;
   text-decoration: underline;
@@ -278,6 +279,18 @@ caption {
 .album:hover img { transform: scale(1.1); }
 .album .desc { padding: 10px 15px; }
 .album .desc h4 { margin: 0; padding: 0; line-height:1.5em; }
+
+.sidebar {  }
+.thumblist {}
+.thumblist li { display: block; padding: 10px 0; border-bottom: 1px solid #e4e4e4; }
+.thumblist li a { display:block; border-left: 5px solid #d6d6d6; 
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;}
+.thumblist li a:hover, .thumblist li a.active { border-left: 5px solid #57aa47; }
+.thumblist li img { width: 95px; height: 70px; float: left; border: none; }
+.thumblist li p { display: inline-block; float: left; width: 60%; margin: 5px 10px; font-size: 12px; text-decoration: underline; }
 
 
 

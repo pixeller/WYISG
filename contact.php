@@ -631,7 +631,7 @@
             <p>The entire WYISGOC16 family would like to express our gratitude to all the support and help provided by the following sponsorship parties:</p>
         </div>
         <div class="col-xs-12">
-            <img class="img-responsive customer-img" src="images/sponsorship.jpg" alt="">
+            <img class="img-responsive customer-img" src="images/wyisg-partner.png" alt="">
         </div>
     </div>
         </div>
