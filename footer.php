@@ -18,8 +18,8 @@
                     <div class="col-sm-6 hidden-xs">    
                         <h4>Corporate Supporters</h4>
                         <ul class="list-inline">
-                        	<li><img src="images/athletics.png"/></li>
-                            <li>Coming soon</li>
+                        	<li><img src="images/logos/WYISG.jpg" width="90" /></li>
+
                         </ul>
                     </div>    
                 </div>
@@ -109,6 +109,25 @@
         $(document).ready(function() {
           $('.image-link').magnificPopup({type:'image'});
         });
+
+        $('.video-popup').magnificPopup({
+          type: 'iframe',
+          
+          
+          iframe: {
+            patterns: {
+              dailymotion: {
+               
+                index: 'pixeller.com',
+                id: '/',
+                src: 'http://pixeller.co/WYISG/video/WYISG_150306.mp4'
+                
+              }
+            }
+          }
+          
+          
+        });
     </script>
     
 
@@ -144,6 +163,8 @@
     <script src="js/flexslider/jquery.easing.js"></script>
     <script src="js/flexslider/jquery.mousewheel.js"></script>
     <script defer src="js/flexslider/demo.js"></script>
+
+
 
 </body>
 

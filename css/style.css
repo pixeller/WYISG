@@ -33,18 +33,21 @@ body {
 .navbar-fixed-top {
   height: 110px;
   background: #fff;
+  border:0;
   /* background: url(../images/navbar-bg.jpg) top right no-repeat #89be41; */
 }
 .navbar-icon {
   float: right;
+  margin-top:7px;
 }
+.brand-logo {float:left;}
+.brand-logo img+img {margin-left: 5px}
 .navbar-default .navbar-icon > li > a {
   padding: 13px 10px 12px;
   color: #2b741d;
 }
 .navbar-fluid {
   background: #57aa47;
-  border-radius: 4px 4px 0px 0px;
 }
 .navbar-fluid .navbar-right > li > a {
   color: #fff;
@@ -101,11 +104,14 @@ body {
 .mega-dropdown {
   position: static !important;
 }
+.dropdown-menu {border: 0}
 .mega-dropdown-menu {
   padding: 20px 15px 15px;
   text-align: center;
   width: 100%;
+  top:136px;
 }
+.mega-dropdown-menu .nav-list {border-bottom:none;}
 .img-portfolio {
   margin-bottom: 30px;
 }
@@ -181,8 +187,9 @@ header.carousel .fill {
 .scoreboard .layer {background:rgba(255,255,255,0.7); position:absolute; width:100%; height:100%}
 .scoreboard .layer>span {position:absolute; top:50%; left:40%; font-weight:bold}
 .scoreboard h4 {background:#eb3035; padding:10px; margin:0; color:#fff}
-.scoreboard .view-more {font-size:14px; margin-top:5px; float:right}
+.scoreboard .view-more,.video .view-more {font-size:14px; margin-top:5px; float:right; color: #fff}
 .scoreboard .panel-body {background:#fff; border:1px solid #ddd}
+ .video h4 {background:#3671B4; padding:10px; margin:0; color:#fff}
 
 /* About Us */
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
@@ -231,6 +238,7 @@ footer .copyright ul.list-inline li:after {
   content: '|';
   margin-left: 10px;
 }
+footer .copyright ul.list-inline li:last-child:after {content: ''}
 
 #highlights-carousel .item{
   margin: 10px;
@@ -275,6 +283,8 @@ caption {
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
 }
 .album .holder { height: 170px; overflow: hidden; }
+.video-gallery .album .holder {height: 150px}
+.heritage .album .holder {height: auto}
 .album img { transition: all .2s ease-in-out; }
 .album:hover img { transform: scale(1.1); }
 .album .desc { padding: 10px 15px; }
@@ -300,7 +310,10 @@ caption {
     padding: 8px 15px;
   }
   .navbar-header {
-    position: absolute;
+    position: relative;
+    padding:5px 0;
+    float:none;
+    width:100%;
   }
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {

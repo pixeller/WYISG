@@ -138,10 +138,11 @@
             <!-- Video & Scoreboard Section -->
             <div class="col-md-8">
                 <div class="video">
+                <h4>Latest Video <a href="video-gallery.php"><span class="view-more">View All <i class="fa fa-angle-double-right"></i></span></a></h4>
                     <video width="100%" controls poster="images/placeholder.png">
-                      <source src="http://pixeller.co/WYISG/WYISG_150422.mp4">
-                      <source src="http://pixeller.co/WYISG/WYISG_150422.ogv" type="video/ogg">
-                      <source src="http://pixeller.co/WYISG/WYISG_150422.webm" type="video/webm">
+                      <source src="http://pixeller.co/WYISG/video/WYISG_150306.mp4">
+                      <source src="http://pixeller.co/WYISG/video/WYISG_150306.ogv" type="video/ogg">
+                      <source src="http://pixeller.co/WYISG/video/WYISG_150306.webm" type="video/webm">
                       <img src="/images/placeholder.png" title="Your browser does not support HTML5 video.">
                     </video>
                 </div>

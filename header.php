@@ -67,9 +67,9 @@
     
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
+      <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="container navbar-header">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -79,31 +79,33 @@
           
           
           <!-- <a class="navbar-brand" href="#"></a> -->
-          <div style="background: #fff; width: 450px; height: 110px;">
-            <img src="images/issf-logo.png" style="margin:0; padding:0;">
-            <img src="images/wyisg-logo-w.png" style="margin:0; padding:0; margin-left:10px;">
-            <img src="images/melaka-logo.png" style="margin:0; padding:0; margin-left:10px;">
-          </div>
+            <div class="brand-logo">
+                <img src="images/issf-logo.png" width="70">
+                <img src="images/wyisg-logo-x2.png" width="120">
+                <img src="images/melaka-logo.png" width="80">
+            </div>
+            <ul class="nav navbar-nav navbar-icon text-center hidden-xs">
+                <li class="dropdown">
+                  <a href="#"><i class="fa fa-shopping-cart fa-2x"></i><br>Merchandise</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#"><i class="fa fa-comments-o fa-2x"></i><br>Social Hubs</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#"><i class="fa fa-microphone fa-2x"></i><br>Broadcast</a>
+                </li>
+            </ul>
         </div>
     
+
+      </div><!-- /.container-fluid -->
+
         <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
             
-            <div class="container hidden-xs">
-            	<ul class="nav navbar-nav navbar-icon text-center">
-                    <li class="dropdown">
-                      <a href="#"><i class="fa fa-shopping-cart fa-2x"></i><br>Merchandise</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#"><i class="fa fa-comments-o fa-2x"></i><br>Social Hubs</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#"><i class="fa fa-microphone fa-2x"></i><br>Broadcast</a>
-                    </li>
-                </ul>
-            </div>
+            
             <div class="clearfix"></div>
-            <div class="container navbar-fluid">
-            	<div class="container">
+            <div class="navbar-fluid">
+                <div class="container">
                     <ul class="nav navbar-nav navbar-right">
                     <!-- Get Menu Name here -->    
                     <li <?php if($current == 'home') {echo 'class="active"';} ?>><a href="index.php"><i class="fa fa-home"></i></a></li>
@@ -118,7 +120,7 @@
                           </ul>                    
                     </li> -->
                     <li <?php if($current == 'sports') {echo 'class="active dropdown mega-dropdown"';} ?> class="dropdown mega-dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Sports</a>				
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Sports</a>               
                         <div class="dropdown-menu mega-dropdown-menu">
                             <div class="container-fluid">
                                 <!-- Tab panes -->
@@ -148,11 +150,12 @@
                                 </div>
                             </div>
                                              
-                        </div>				
+                        </div>              
                     </li>
                     <li <?php if($current == 'hosts') {echo 'class="active"';} ?> class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Host</a>
                       <ul class="dropdown-menu" role="menu">
+                        <hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
                         <li><a href="malacca-history.php">Story Of Malacca As UNESCO World Heritage City</a></li>
                         <li><a href="sports-tourism.php">Sports Tourism</a></li>
                         <li><a href="heritage-trails.php">The Heritage Trails</a></li>
@@ -174,6 +177,7 @@
                     <li <?php if($current == 'sports_venues') {echo 'class="active"';} ?> class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Venues</a>
                       <ul class="dropdown-menu" role="menu">
+                        <hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
                         <li><a href="sports-venues-archery.php">Archery</a></li>
                         <li><a href="sports-venues-athletics.php">Athletics</a></li>
                         <li><a href="sports-venues-aquatics.php">Aquatics</a></li>
@@ -192,24 +196,25 @@
                     <li <?php if($current == 'travel_transports') {echo 'class="active"';} ?> class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel & Transports</a>
                       <ul class="dropdown-menu" role="menu">
+                        <hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
                         <li><a href="accommodations.php">Accommodations</a></li>
                       </ul>
                     </li>
                     <li <?php if($current == 'more') {echo 'class="active"';} ?> class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu">
-                      	<hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
+                        <hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
                         <!-- <li><a href="#">Our Sponsors</a></li> -->
                         <li><a href="photo-gallery.php">Gallery</a></li>
-                        <!-- <li><a href="#">News</a></li>
-                        <li><a href="#">Videos</a></li> -->
+                        <!-- <li><a href="#">News</a></li> -->
+                        <li><a href="video-gallery.php">Videos</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="about.php">About Us</a></li>
                       </ul>
                     </li>
                 </ul>
-            	</div>
+                </div>
             </div>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+
     </nav>

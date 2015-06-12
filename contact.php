@@ -627,7 +627,7 @@
             </div>
             <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Sponsorship parties:</h2>
+            <h2 class="page-header">Corporate Supporters:</h2>
             <p>The entire WYISGOC16 family would like to express our gratitude to all the support and help provided by the following sponsorship parties:</p>
         </div>
         <div class="col-xs-12">
