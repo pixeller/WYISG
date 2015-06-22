@@ -5,14 +5,14 @@
  */
 ?>
 <footer class="container">
+	
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 hidden-xs">
                     <div class="col-sm-6 hidden-xs">
                     	<h4>Official Partners</h4>
                         <ul class="list-inline">
-                        	<li><img src="images/archery.png"/></li>
-                            <li>Coming soon</li>
+                        	<li><img src="images/logos/WYISG.jpg" width="90" /></li>
                         </ul>
                     </div>    
                     <div class="col-sm-6 hidden-xs">    
@@ -34,6 +34,16 @@
                 </div>
             </div>
         </div>
+        
+    <!-- hitwebcounter.com -->
+    <div class="counterLog">
+		<strong>Page visits</strong>
+        <!-- hitwebcounter Code START -->
+        <img src="http://hitwebcounter.com/counter/counter.php?page=6097728&style=0006&nbdigits=5&type=ip&initCount=15" title="Total visit user" Alt="Total visit user"   border="0" >
+        <br>
+        <a href="http://www.hitwebcounter.com/" title="Website Stats" target="_blank"><strong>Website Stats</strong></a> 
+	</div>
+    
         <div class="copyright">
         	<div class="container">
             	<div class="row">
@@ -45,7 +55,7 @@
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Accessibility</a></li>
-                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="sitemap.php">Sitemap</a></li>
                         </ul>
                     </div>
                 </div>
@@ -136,7 +146,7 @@
     <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
     <script src="js/owl-carousel/owl.carousel.min.js"></script>
     <!-- Prettify -->
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!--<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">-->
 
     <script type="text/javascript">
         $(document).ready(function() {

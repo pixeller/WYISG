@@ -62,7 +62,9 @@
 <body <?php if($current == 'home') {echo 'class="home-bg"';} ?>>
 	<!-- Social Plugin -->
     <div class="addthis">
-    	<img src="images/addthis.jpg" class="img-responsive"/>
+    	<a href="https://www.facebook.com/pages/WYISG-2016/940830505936916" target="_blank"><img src="images/addthis-fb.jpg" class="img-responsive"/></a>
+        <a href="https://twitter.com/youthislamicG16" target="_blank"><img src="Images/addthis-tw.jpg" class="img-responsive"/></a>
+        <a href="contact.php" alt="Contact Us"><img src="Images/addthis-contact.jpg" class="img-responsive"/></a>
     </div>
     
     <!-- Navigation -->
@@ -171,9 +173,13 @@
                         <li><a href="#">Closing Ceremony</a></li>
                       </ul>
                     </li> -->
-                    <!-- <li <?php //if($current == 'mascots') {echo 'class="active"';} ?> class="dropdown">
-                      <a href="#">Mascots</a>
-                    </li> -->
+                    <li <?php //if($current == 'mascots') {echo 'class="active"';} ?> class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Mascots</a>
+                      <ul class="dropdown-menu" role="menu">
+                        <hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
+                        <li><a href="javascript:;">Coming Soon</a></li>
+                      </ul>
+                    </li>
                     <li <?php if($current == 'sports_venues') {echo 'class="active"';} ?> class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Venues</a>
                       <ul class="dropdown-menu" role="menu">

@@ -18,7 +18,7 @@ html,
 body {
   height: 100%;
 }
-.home-bg { background:#2a372d; }
+.home-bg { background:url(../images/texture-bg.jpg) repeat; }
 body {
   padding-top: 110px;
 }
@@ -40,7 +40,15 @@ body {
   float: right;
   margin-top:7px;
 }
-.brand-logo {float:left;}
+.brand-logo {
+	position: absolute;
+	padding: 18px 18px 19px;
+	background-color: white;
+	margin-left: -15px;
+	margin-top: -5px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+	z-index:9999
+}
 .brand-logo img+img {margin-left: 5px}
 .navbar-default .navbar-icon > li > a {
   padding: 13px 10px 12px;
@@ -109,7 +117,7 @@ body {
   padding: 20px 15px 15px;
   text-align: center;
   width: 100%;
-  top:136px;
+  top:127px;
 }
 .mega-dropdown-menu .nav-list {border-bottom:none;}
 .img-portfolio {
@@ -144,7 +152,7 @@ header.carousel .fill {
 .home.body-content {
 	background: #fff;
   /* background:url(../images/texture-bg.jpg) repeat; */
-	/* margin-top:-35px; */
+	margin-top:20px;
 	position:relative;
 	margin-bottom:-25px;
 }
@@ -226,6 +234,15 @@ footer {
 footer .social-link li a, footer ul li, footer p, footer span, footer h4 {
   color: #333;
 }
+footer .counterLog, footer .counterLog strong {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #63766C;
+	text-decoration: none;
+	text-align:right;
+	margin-right:5px;
+}
+footer .counterLog a {display:none}
 footer .copyright {
   border-top: 1px solid #e5e5e5;
   margin-top: 15px;
@@ -302,6 +319,7 @@ caption {
 .thumblist li img { width: 95px; height: 70px; float: left; border: none; }
 .thumblist li p { display: inline-block; float: left; width: 60%; margin: 5px 10px; font-size: 12px; text-decoration: underline; }
 
+.sitemap > div + div {margin-left:20px}
 
 
 /*=============== Responsive Styles ====================*/
