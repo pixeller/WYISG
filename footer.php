@@ -12,8 +12,7 @@
                     <div class="col-sm-6 hidden-xs">
                     	<h4>Official Partners</h4>
                         <ul class="list-inline">
-                        	<li><img src="images/archery.png"/></li>
-                            <li>Coming soon</li>
+                        	<li><img src="images/logos/WYISG.jpg" width="90" /></li>
                         </ul>
                     </div>    
                     <div class="col-sm-6 hidden-xs">    
@@ -56,7 +55,7 @@
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Accessibility</a></li>
-                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="sitemap.php">Sitemap</a></li>
                         </ul>
                     </div>
                 </div>

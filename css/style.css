@@ -319,6 +319,7 @@ caption {
 .thumblist li img { width: 95px; height: 70px; float: left; border: none; }
 .thumblist li p { display: inline-block; float: left; width: 60%; margin: 5px 10px; font-size: 12px; text-decoration: underline; }
 
+.sitemap > div + div {margin-left:20px}
 
 
 /*=============== Responsive Styles ====================*/
