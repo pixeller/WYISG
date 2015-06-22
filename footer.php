@@ -5,6 +5,7 @@
  */
 ?>
 <footer class="container">
+	
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 hidden-xs">
@@ -34,6 +35,16 @@
                 </div>
             </div>
         </div>
+        
+    <!-- hitwebcounter.com -->
+    <div class="counterLog">
+		<strong>Page visits</strong>
+        <!-- hitwebcounter Code START -->
+        <img src="http://hitwebcounter.com/counter/counter.php?page=6097728&style=0006&nbdigits=5&type=ip&initCount=15" title="Total visit user" Alt="Total visit user"   border="0" >
+        <br>
+        <a href="http://www.hitwebcounter.com/" title="Website Stats" target="_blank"><strong>Website Stats</strong></a> 
+	</div>
+    
         <div class="copyright">
         	<div class="container">
             	<div class="row">

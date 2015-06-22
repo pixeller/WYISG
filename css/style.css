@@ -47,6 +47,7 @@ body {
 	margin-left: -15px;
 	margin-top: -5px;
 	box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+	z-index:9999
 }
 .brand-logo img+img {margin-left: 5px}
 .navbar-default .navbar-icon > li > a {
@@ -116,7 +117,7 @@ body {
   padding: 20px 15px 15px;
   text-align: center;
   width: 100%;
-  top:136px;
+  top:127px;
 }
 .mega-dropdown-menu .nav-list {border-bottom:none;}
 .img-portfolio {
@@ -233,6 +234,15 @@ footer {
 footer .social-link li a, footer ul li, footer p, footer span, footer h4 {
   color: #333;
 }
+footer .counterLog, footer .counterLog strong {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #63766C;
+	text-decoration: none;
+	text-align:right;
+	margin-right:5px;
+}
+footer .counterLog a {display:none}
 footer .copyright {
   border-top: 1px solid #e5e5e5;
   margin-top: 15px;
