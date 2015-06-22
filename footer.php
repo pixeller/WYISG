@@ -136,7 +136,7 @@
     <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
     <script src="js/owl-carousel/owl.carousel.min.js"></script>
     <!-- Prettify -->
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!--<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">-->
 
     <script type="text/javascript">
         $(document).ready(function() {
