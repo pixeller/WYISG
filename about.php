@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <img class="img-responsive media-left pull-left" src="images/wyisg-logo.png" width="350">
+                <img class="img-responsive media-left pull-left" src="images/wyisg-logo-x2.png" width="350">
                 
                 <h2>ABOUT WORLD YOUTH ISLAMIC SOLIDARITY GAMES (WYISG)</h2>
                 <p>THE WORLD YOUTH ISLAMIC  SOLIDARITY GAMES IS A HISTORIC MILESTONE CONCEPTUALIZED ESPECIALLY FOR YOUTHS PREDOMINANTLY HAILING FROM  MUSLIM COUNTRIES IN THE CONTINENTS OF ASIA, MIDDLE EAST, AFRICA AND PARTS OF EASTERN EUROPE WITH A COMBINED POPULATION OF  MORE THAN 1.5  BILLION  OF THE GLOBAL POPULATION. </p>

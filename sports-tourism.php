@@ -10,7 +10,7 @@
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
                     </li>
-                    <li><a href="sports.php">Sports</a>
+                    <li><a href="#">Our Host</a>
                     </li>
                     <li class="active">Sports Tourism</li>
                 </ol>
@@ -23,9 +23,18 @@
 
         <!-- Content Row -->
         <div class="row">
+        
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="malacca-history.php" class="list-group-item">Story Of Malacca As UNESCO World Heritage City</a>
+                    <a href="sports-tourism.php" class="list-group-item active">Sports Tourism</a>
+                    <a href="heritage-trails.php" class="list-group-item">15th Century Events</a>
+                </div>
+            </div>
 
             <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
+            <div class="col-lg-9">
 
                 <!-- Post Content -->
                 <p>Sports Tourism is defined as a specific travel outside of the usual environment for either passive or active involvement in competitive sport where sport is the prime motivational reason for travel and the touristic or leisure element may act to reinforce the overall experience.</p>
@@ -539,28 +548,8 @@
                 <p>&nbsp;</p>
             </div>
 
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
 
-                <!-- Blog Categories Well -->
-                <div class="well">
-                    <h4>Our Host</h4>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul class="list-unstyled">
-                                <li><a href="malacca-history.php">Story Of Malacca As UNESCO World Heritage City</a>
-                                </li>
-                                <li><a href="sports-tourism.php">Sports Tourism</a>
-                                </li>
-                                <li><a href="heritage-trails.php">15th Century Events</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-            </div>
+            
 
         </div>
         <!-- /.row -->
