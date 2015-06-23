@@ -234,8 +234,16 @@
             </div>
             <hr>
 
-            
-            
+            <div>
+                <div class="counter-wrapper centered-wrapper">
+                    <div id="odometer1" class="odometer">000</div>
+                </div>  
+
+                <div class="counter-wrapper centered-wrapper">
+                    <div id="odometer2" class="odometer">000</div>
+                </div>   
+            </div>
+
         </div>
         <!-- /.row -->
 

@@ -57,9 +57,22 @@
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
     <!-- Modernizr -->
     <script src="js/flexslider/modernizr.js"></script>
+    
+    <script src="js/odometer/odometer.min.js"></script>
+    <link rel="stylesheet" href="js/odometer/odometer-theme-default.css" />
+    <script>
+    setTimeout(function(){
+        odometer1.innerHTML = 500;
+    }, 300);
+    setTimeout(function(){
+        odometer2.innerHTML = 100;
+    }, 300);
+    </script>
+
 
 </head>
 <body <?php if($current == 'home') {echo 'class="home-bg"';} ?>>
+<?php include_once("analyticstracking.php") ?>
 	<!-- Social Plugin -->
     <div class="addthis">
     	<a href="https://www.facebook.com/pages/WYISG-2016/940830505936916" target="_blank"><img src="images/addthis-fb.jpg" class="img-responsive"/></a>
