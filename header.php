@@ -58,7 +58,7 @@
     <!-- Modernizr -->
     <script src="js/flexslider/modernizr.js"></script>
     
-    <script src="js/odometer/odometer.min.js"></script>
+    <!--<script src="js/odometer/odometer.min.js"></script>
     <link rel="stylesheet" href="js/odometer/odometer-theme-default.css" />
     <script>
     setTimeout(function(){
@@ -67,7 +67,9 @@
     setTimeout(function(){
         odometer2.innerHTML = 100;
     }, 300);
-    </script>
+    </script>-->
+
+    
 
 
 </head>

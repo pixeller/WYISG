@@ -4,8 +4,39 @@
  *
  */
 ?>
+<div class="container" style="padding:0; background: #fff;">
+    <p><img src="images/number-info.png" class="image-responsive"></p>
+    <section class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="" style="background-position: 50% 94.2px;">
+      <div class="pattern"></div>
+      <div class="row" style="position:relative;">
+        <div class="parallax-overlay"></div> 
+             <!-- <p><img src="images/number-info.png" class="image-responsive"></p> -->
+          <div class="mod-countdown js-countdown">
+
+                <h4>Starting in</h4>
+              <div class="days primary">
+                <span class="count"></span> 
+                <span class="label">days</span>  
+              </div>
+              <div class="hours secondary">
+                <span class="count"></span>
+                <span class="label">hours</span>
+              </div>
+              <div class="minutes secondary">
+                <span class="count"></span>
+                <span class="label">min</span>
+              </div>
+              <div class="seconds secondary">
+                <span class="count"></span>
+                <span class="label">sec</span>
+              </div>
+            </div>
+        </div>
+      </div>
+  </section>    
+</div>
 <footer class="container">
-	
+     
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 hidden-xs">
@@ -173,6 +204,10 @@
     <script src="js/flexslider/jquery.easing.js"></script>
     <script src="js/flexslider/jquery.mousewheel.js"></script>
     <script defer src="js/flexslider/demo.js"></script>
+
+    <!-- Stellar.js -->
+    <script src="http://markdalgleish.com/projects/stellar.js/js/stellar.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 
 
 
