@@ -51,6 +51,12 @@
                 <p>Archery games will be held at the field inside mini stadium </p>
                 <p>Mini Stadium SMK Seri Kota Melaka offers a variety of sports infrastructure and other facilities including outdoor exhibition space, car parks and prayer room. </p>
 
+                <p>&nbsp;</p>
+
+                <div class="google-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.882893367278!2d102.263413!3d2.1979780000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1ee248a0dd91b%3A0x35c89bbb6cb69647!2sSekolah+Menengah+Kebangsaan+Seri+Kota!5e0!3m2!1sen!2s!4v1435513568317" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div> 
+
                 <!-- /Post Content -->
 
                 <p>&nbsp;</p>
@@ -59,7 +65,7 @@
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
 
-                <!-- Blog Categories Well -->
+                <!-- Sports Sidebar -->
                 <div class="well sidebar">
                     <h4>Other Venues</h4>
                     <div class="row">
@@ -138,18 +144,6 @@
                     </div>
                     <!-- /.row -->
                 </div>
-
-                <!-- <div class="well sidebar">
-                    <h4>List of Sports</h4>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul class="list-unstyled fa-ul">
-                                <li><a href="#"><i class="fa-li fa fa-angle-right"></i> Coming Soon</a>
-                                </li> 
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
 
                 <div class="well sidebar">
                     <h4>Hotels</h4>

@@ -215,24 +215,7 @@
             </div>
             
             <div class="clearfix"></div>
-            <hr>
-            <div class="newsletter text-center">
-            	<h2>Enter your email and <span>subscribe</span> to our newsletter.</h2>
-                <p>Get exclusive update and promote about WYISG event</p>
-                <form class="form-inline">
-                  <div class="form-group">
-                    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
-                    <div class="input-group">
-                      <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                      <input type="text" class="form-control" id="newsletter" placeholder="Email" required>
-                      <btn class="input-group-addon btn btn-primary" type="submit">Sign Up</btn>
-                    </div>
-                  </div>
-                  
-                </form>
-                <div class="clearfix"></div>
-            </div>
-            <hr>
+            
 
         </div>
         <!-- /.row -->

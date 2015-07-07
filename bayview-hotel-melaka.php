@@ -1,4 +1,4 @@
-<?php $current = 'sports_venues' ?>
+<?php $current = 'travel_transports' ?>
 <?php include 'header.php'; ?>
 
     <!-- Page Content -->
@@ -10,12 +10,12 @@
                 <ol class="breadcrumb">
                     <li><a href="index.php">Home</a>
                     </li>
-                    <li class="active"><a href="sports-venue.php">Sports Venues</a>
+                    <li><a href="#">Travel & Transports</a>
                     </li>
+                    <li class="active">Accommodations</li>
                 </ol>
-                <h1 class="page-header">Sports Venues
+                <h1 class="page-header">Bayview Hotel Melaka 
                 </h1>
-                
             </div>
         </div>
         <!-- /.row -->
@@ -24,39 +24,125 @@
         <div class="row">
 
             <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
+            <div class="col-lg-8"> 
 
-                <!-- Post Content -->
-                <h4>2. ATHLETICS </h4>
-                <p>This competition will be held at Stadium Hang Jebat </p>
-                <div class="row">
+                <p> Right in heart of town of town. Just minutes away from the business district and close proximity to entertainment,shopping and famous historical sights. </p>
+
+                <div class="row"> 
                     <div class="col-sm-6">
-                        <img class="img-responsive" src="images/venue-john/athletics1.jpg" alt="">
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-responsive" src="images/venue-john/athletics2.jpg" alt="">
+                        <img class="img-responsive" src="images/list-hotel/bayviewhotel.jpg" alt="">
                     </div>
                 </div>    
-                <p>Hang Jebat Stadium was completed in September 2004 and started operations once completed and it is the main venue in Hang Jebat Sports Complex and also is among the advance sports venues in the state. </p>
-                <p>With an area of six acres, Stadium Hang Jebat is able to accommodate 40,000 people at one time. </p>
-                <p>The Precise specification of international standards, track facility gained world recognition and the use of modern technology is suitable for the organization of athletics events and football player. </p>
-                <p>Stadium Hang Jebat offers a variety of sports infrastructure and other facilities including indoor and outdoor exhibition space, meeting rooms, seminar rooms and business center </p>
                 
                 <p>&nbsp;</p>
-                <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.6358854767095!2d102.2323151!3d2.288599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1fadff925bac1%3A0xc5e6407666c0cd02!2sHang+Jebat+Stadium!5e0!3m2!1sen!2s!4v1435513766857" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div> 
-                <!-- /Post Content -->
 
+                <div class="google-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.7183007948772!2d102.25318020664979!3d2.2016033478450705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1f1d82159d661%3A0x181c50bf288d037c!2sBayview+Hotel+Melaka!5e0!3m2!1sen!2s!4v1435432268158" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <!-- /Post Content -->
                 <p>&nbsp;</p>
             </div>
 
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
 
-                <!-- Blog Categories Well -->
+                <!-- Hotel Sidebar -->
                 <div class="well sidebar">
-                    <h4>Other Venues</h4>
+                    <h4>Other Hotels</h4>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="list-unstyled thumblist">
+                                <li>
+                                    <a href="ramada-plaza.php">
+                                        <img src="images/list-hotel/ramadaplaza1.jpg" class="img-responsive">
+                                        <p>Ramada Plaza</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="swiss-garden-hotel-residences.php">
+                                        <img src="images/list-hotel/swissgardenhotel1.jpg" class="img-responsive">
+                                        <p>Swiss Garden Hotel & Residences</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="active" href="bayview-hotel-melaka.php">
+                                        <img src="images/list-hotel/bayviewhotel.jpg" class="img-responsive">
+                                        <p>Bayview Hotel Melaka</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="hotel-orkid.php">
+                                        <img src="images/list-hotel/hotelorkid.jpg" class="img-responsive">
+                                        <p>Hotel Orkid</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="hotel-sentral-melaka.php">
+                                        <img src="images/list-hotel/hotelsentralmelaka.jpg" class="img-responsive">
+                                        <p>Hotel Sentral Melaka</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="hotel-kobemas.php">
+                                        <img src="images/listhotel-task/hotelkobemas1.jpg" class="img-responsive">
+                                        <p>Hotel Kobemas</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="world-youth-hotel.php">
+                                        <img src="images/listhotel-task/worldyouthhotel1.jpg" class="img-responsive">
+                                        <p>World Youth Hotel</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="puteri-resort-ayer-keroh.php">
+                                        <img src="images/listhotel-task/puteriresort-ayerkeroh1.jpg" class="img-responsive">
+                                        <p>Puteri Resort Ayer Keroh</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+
+                                <li><a href="d-village-resort-melaka.php">
+                                        <img src="images/listhotel-task/dvillageresort1.jpg" class="img-responsive">
+                                        <p>D’ Village Resort Melaka</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="hatten-hotel.php">
+                                        <img src="images/listhotel-task/hattenhotel1.jpg" class="img-responsive">
+                                        <p>Hatten Hotel</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="mahkota-hotel.php">
+                                        <img src="images/venue-john/badminton1.jpg" class="img-responsive">
+                                        <p>Mahkota Hotel</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>
+                                <li><a href="kings-hotel.php">
+                                        <img src="images/listhotel-task/kingshotel2.jpg" class="img-responsive">
+                                        <p>Kings Hotel</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>  
+                                <li><a href="seri-malaysia-resort.php">
+                                        <img src="images/listhotel-task/serimalaysiaresort1.jpg" class="img-responsive">
+                                        <p>Seri Malaysia Resort</p>
+                                        <div class="clearfix"></div>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Sports Sidebar -->
+                <div class="well sidebar">
+                    <h4>Venues</h4>
                     <div class="row">
                         <div class="col-lg-12">
                             <ul class="list-unstyled thumblist">
@@ -67,7 +153,7 @@
                                         <div class="clearfix"></div>
                                     </a>
                                 </li>
-                                <li><a class="active" href="sports-venues-athletics.php">
+                                <li><a href="sports-venues-athletics.php">
                                         <img src="images/venue-john/athletics1.jpg" class="img-responsive">
                                         <p>Stadium Hang Jebat</p>
                                         <div class="clearfix"></div>
@@ -134,31 +220,6 @@
                     <!-- /.row -->
                 </div>
 
-                <!-- <div class="well sidebar">
-                    <h4>List of Sports</h4>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul class="list-unstyled fa-ul">
-                                <li><a href="#"><i class="fa-li fa fa-angle-right"></i> Coming Soon</a>
-                                </li> 
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="well sidebar">
-                    <h4>Hotels</h4>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul class="list-unstyled fa-ul">
-                                <li><a href="#"><i class="fa-li fa fa-angle-right"></i> Coming Soon</a>
-                                </li> 
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-
                 <div class="well sidebar">
                     <h4>Tour Spot</h4>
                     <div class="row">
@@ -184,7 +245,6 @@
                     </div>
                     <!-- /.row -->
                 </div>
-
 
             </div>
 

@@ -35,6 +35,26 @@
       </div>
   </section>    
 </div>
+<hr>
+<div class="newsletter text-center">
+  <p>&nbsp;</p>
+  <h2>Enter your email and <span>subscribe</span> to our newsletter.</h2>
+    <p>Get exclusive update and promote about WYISG event</p>
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+          <input type="text" class="form-control" id="newsletter" placeholder="Email" required>
+          <btn class="input-group-addon btn btn-primary" type="submit">Sign Up</btn>
+        </div>
+      </div>
+      
+    </form>
+    <p>&nbsp;</p>
+    <div class="clearfix"></div>
+</div>
+<hr>
 <footer class="container">
      
         <div class="container">
@@ -68,7 +88,7 @@
         
     <!-- hitwebcounter.com -->
     <div class="counterLog">
-		<strong>Page visits</strong>
+		<strong>Visitors</strong>
         <!-- hitwebcounter Code START -->
         <img src="http://hitwebcounter.com/counter/counter.php?page=6097728&style=0006&nbdigits=5&type=ip&initCount=15" title="Total visit user" Alt="Total visit user"   border="0" >
         <br>

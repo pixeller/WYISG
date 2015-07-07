@@ -49,6 +49,9 @@
                 </div>    
                 
                 <p>&nbsp;</p>
+                <div class="google-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.869103361183!2d102.2695804!3d2.2031354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1ee30f768b847%3A0x22a8664bc1263660!2sStadium+Hoki+Taman+Bandaraya+Bukit+Serindit!5e0!3m2!1sen!2smy!4v1435515823277" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div> 
 
                 
                 <!-- /Post Content -->

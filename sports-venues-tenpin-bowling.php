@@ -44,6 +44,11 @@
                         <img class="img-responsive" src="images/venue-john/tenpinbowling3.jpg" alt="">
                     </div>
                 </div>
+
+                <p>&nbsp;</p>
+                <div class="google-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.6800232273563!2d102.28733100000001!3d2.2726710000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1e511624993af%3A0x3210671c3b35d3c7!2sMelaka+International+Bowling+Center!5e0!3m2!1sen!2smy!4v1435515921158" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div> 
                 <!-- /Post Content -->
 
                 <p>&nbsp;</p>

@@ -50,6 +50,9 @@
                 </div>    
                 
                 <p>&nbsp;</p>
+                <div class="google-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3986.635181907896!2d102.2331075!3d2.288852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1ee29eb2355d9%3A0x1a461296a4e7b543!2sMelaka+Stadium+Corporation!5e0!3m2!1sen!2s!4v1435514008118" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div> 
                 <!-- /Post Content -->
 
                 <p>&nbsp;</p>

@@ -218,7 +218,19 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel & Transports</a>
                       <ul class="dropdown-menu" role="menu">
                         <hr style="height:4px; background:#57aa47; margin:5px 15px; border:none; border-radius: 4px;">
-                        <li><a href="accommodations.php">Accommodations</a></li>
+                        <li><a href="ramada-plaza.php">Ramada Plaza</a></li>
+                        <li><a href="swiss-garden-hotel-residences.php">Swiss Garden Hotel & Residences</a></li>
+                        <li><a href="bayview-hotel-melaka.php">Bayview Hotel Melaka</a></li>
+                        <li><a href="hotel-orkid.php">Hotel Orkid</a></li>
+                        <li><a href="hotel-sentral-melaka.php">Hotel Sentral Melaka</a></li>
+                        <li><a href="hotel-kobemas.php">Hotel Kobemas</a></li>
+                        <li><a href="world-youth-hotel.php">World Youth Hotel</a></li>
+                        <li><a href="puteri-resort-ayer-keroh.php">Puteri Resort Ayer Keroh</a></li>
+                        <li><a href="d-village-resort-melaka.php">D’ Village Resort Melaka</a></li>
+                        <li><a href="hatten-hotel.php">Hatten Hotel</a></li>
+                        <li><a href="mahkota-hotel.php">Mahkota Hotel </a></li>
+                        <li><a href="kings-hotel.php">Kings Hotel</a></li>
+                        <li><a href="seri-malaysia-resort.php">Seri Malaysia Resort</a></li>
                       </ul>
                     </li>
                     <li <?php if($current == 'more') {echo 'class="active"';} ?> class="dropdown">
